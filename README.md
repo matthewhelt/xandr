@@ -2,7 +2,7 @@
 
 ## Usage
 
-   * Ensure no other services are using port 5000 for this test
+   * Ensure no other services are using port 5000 for this test (use <code>netstat -ltnp | grep -w '5000'</code> to determine if docker has already bound the port)
    * Clone this repo into a directory
    * In that directory, run this command <code>sudo docker build -t test .</code>
    * You will now have a docker image named <code>test:latest</code> if the previous command is successfull, it's time to start the container
