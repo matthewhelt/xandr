@@ -15,7 +15,7 @@ employees = [{'id': 0, 'name': 'Anem Ployee', 'salary': 1000},
 
 # utility functions
 def grant_raise_05(id, employees):
-    # find the record then update, there are more other ways to do this but this
+    # find the record then update, there are many other ways to do this, but this
     # is easy to read. note this change will not persist since it's modifying an
     # in-memory list of dicts
 
@@ -55,7 +55,7 @@ def get_employee(id):
             # assuming success, return update resource
             return '', 204
         else:
-            # no id, no resource - return un acceptable input
+            # no id, no resource - return unacceptable input
             return '', 406
 
 
