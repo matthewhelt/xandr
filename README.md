@@ -14,6 +14,7 @@
   * GET request to <code>localhost:5000/</code> should return a JSON object with all the employee records
   * GET request to <code>localhost:5000/1</code> should return a JSON object with the single employee record with ID 1
   * PUT request to <code>localhost:5000/1</code> should increase the field 'salary' by 5% which should be immediately reflected in any subsequent GET request
+  * Note that PUT request must include the ID in the URL
   
 ## Caveats & ToDo
 
